@@ -1,0 +1,20 @@
+
+
+html, body {
+    width: 100%;
+    height: auto;
+    background: url(/images/pattern-background-desktop.svg) no-repeat center center/cover;
+    overflow-x: hidden;
+    font-family: 'Roboto', sans-serif;
+}
+
+.content_container {
+    height: 80%;
+    width: 30%; 
+    background-color: yellow;
+    margin: 80px auto;
+}
+.content_container img {
+    width: 100%;
+    height: auto;
+}
