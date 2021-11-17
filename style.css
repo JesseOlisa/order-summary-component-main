@@ -1,20 +1,52 @@
-
+* {
+    margin: 0;
+    padding: 0;
+}
 
 html, body {
+    position: relative;
     width: 100%;
-    height: auto;
-    background: url(/images/pattern-background-desktop.svg) no-repeat center center/cover;
+    background: url(/images/pattern-background-desktop.svg) no-repeat;
+    background-color: hsl(225, 100%, 94%);
     overflow-x: hidden;
     font-family: 'Roboto', sans-serif;
 }
 
-.content_container {
-    height: 80%;
-    width: 30%; 
-    background-color: yellow;
+.main_container {
+    height: 500px;
+    width: 27%; 
+    background-color: #fff;
     margin: 80px auto;
+    border-radius: 25px;
 }
-.content_container img {
+.main_container img {
     width: 100%;
     height: auto;
+    /* PLEASE SEE IF YOU CAN TRY SOMETHING ELSE */
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+.content_container {
+    width: 80%;
+    margin: 40px auto;
+}
+.content_container .main_text {
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+}
+.content_container .sub_text {
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+.plan_container {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    align-self: flex-start;
+}
+.plan_container img {
+    width: 35px;
+    height: 35px;
 }
